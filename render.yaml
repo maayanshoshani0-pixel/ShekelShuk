@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shekelshuk-site
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: ./
+    autoDeployTrigger: commit
