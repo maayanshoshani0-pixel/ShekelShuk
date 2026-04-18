@@ -2,9 +2,6 @@ services:
   - type: web
     name: shekelshuk-site
     runtime: static
-    plan: free
     buildCommand: echo "Static site ready"
     staticPublishPath: ./
     autoDeployTrigger: commit
-    domains:
-      - shekelshuk.com
