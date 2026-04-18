@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shekelshuk-app
+    runtime: node
+    buildCommand: node --version
+    startCommand: node server.js
+    autoDeployTrigger: commit
